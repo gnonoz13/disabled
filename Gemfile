@@ -19,13 +19,14 @@ group :development, :test do
   gem 'byebug'
   gem 'sqlite3'
   gem 'pry'
+  gem 'devise', '3.4.1'
 end
 
 group :development do
   
   gem 'web-console', '~> 2.0'
   gem 'spring'
-  gem 'devise', '3.4.1'
+  
   
 end
 
